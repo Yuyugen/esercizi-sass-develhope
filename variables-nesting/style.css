@@ -1,0 +1,28 @@
+div {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid red;
+  width: 80rem;
+  margin: auto;
+}
+div h1 {
+  align-self: center;
+  color: green;
+  text-decoration: 2px underline blue;
+}
+div section {
+  display: flex;
+  flex-direction: row;
+  margin: 1rem;
+}
+div article {
+  border: 1px solid green;
+  padding: 1rem;
+  text-align: center;
+}
+div article .bluetext {
+  color: blue;
+}
+div article .redtext {
+  color: red;
+}

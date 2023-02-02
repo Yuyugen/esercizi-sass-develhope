@@ -1,1 +1,36 @@
+$color-primary: red;
+$color-tertiary: green;
 
+div {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid $color-primary;
+  width: 80rem;
+  margin: auto;
+
+  h1 {
+    align-self: center;
+    color: $color-tertiary;
+    text-decoration: 2px underline blue;
+  }
+
+  section {
+    display: flex;
+    flex-direction: row;
+    margin: 1rem;
+  }
+
+  article {
+    border: 1px solid $color-tertiary;
+    padding: 1rem;
+    text-align: center;
+
+    .bluetext {
+      color: blue;
+    }
+
+    .redtext {
+      color: $color-primary;
+    }
+  }
+}
