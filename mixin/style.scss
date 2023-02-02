@@ -1,0 +1,44 @@
+@mixin sectionstyle($color, $bordercolor, $fontsize: 1rem) {
+  color: $color;
+  border: 1px solid $bordercolor;
+  font-size: $fontsize;
+}
+
+div {
+  display: flex;
+  flex-direction: column;
+  width: 80em;
+  margin: auto;
+  padding: 1rem;
+  @include sectionstyle(green, red);
+
+  h1 {
+    text-align: center;
+    text-decoration: underline 2px blue;
+  }
+
+  section {
+    display: flex;
+    flex-direction: row;
+
+    .bluetext {
+      padding: 1rem;
+      text-align: center;
+      @include sectionstyle(blue, green);
+    }
+
+    .redtext {
+      padding: 1rem;
+      text-align: center;
+      @include sectionstyle(red, green);
+    }
+  }
+
+  .footer {
+    padding: 1rem;
+    text-align: center;
+    margin-top: 1rem;
+    width: 100%;
+    @include sectionstyle(green, blue, 24px);
+  }
+}
