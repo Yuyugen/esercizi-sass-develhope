@@ -1,0 +1,50 @@
+@use "border-color.scss" as borderstyle;
+@use "text-color.scss" as textstyle;
+@use "font.scss" as tfont;
+@use "rem-converter.scss" as pxtorem;
+
+div {
+  display: flex;
+  flex-direction: column;
+  width: 80em;
+  margin: auto;
+  padding: 1rem;
+  border: borderstyle.$red;
+  font-size: tfont.$size;
+  font-size: pxtorem.rem-convert(16);
+
+  h1 {
+    text-align: center;
+    text-decoration: underline 2px blue;
+    color: textstyle.$green;
+  }
+
+  section {
+    display: flex;
+    flex-direction: row;
+
+    .bluetext {
+      padding: 1rem;
+      text-align: center;
+      border: borderstyle.$green;
+      color: textstyle.$blue;
+    }
+
+    .redtext {
+      padding: 1rem;
+      text-align: center;
+      border: borderstyle.$green;
+      color: textstyle.$red;
+    }
+  }
+
+  .footer {
+    padding: 1rem;
+    text-align: center;
+    margin-top: 1rem;
+    width: 100%;
+    border: borderstyle.$blue;
+    color: textstyle.$green;
+    font-size: pxtorem.rem-convert(24);
+  }
+}

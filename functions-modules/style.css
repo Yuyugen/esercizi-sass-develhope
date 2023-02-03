@@ -1,0 +1,42 @@
+div {
+  display: flex;
+  flex-direction: column;
+  width: 80em;
+  margin: auto;
+  padding: 1rem;
+  border: 1px solid red;
+  font-size: 1rem;
+  font-size: 1rem;
+}
+div h1 {
+  text-align: center;
+  text-decoration: underline 2px blue;
+  color: green;
+}
+div section {
+  display: flex;
+  flex-direction: row;
+}
+div section .bluetext {
+  padding: 1rem;
+  text-align: center;
+  border: 1px solid green;
+  color: blue;
+}
+div section .redtext {
+  padding: 1rem;
+  text-align: center;
+  border: 1px solid green;
+  color: red;
+}
+div .footer {
+  padding: 1rem;
+  text-align: center;
+  margin-top: 1rem;
+  width: 100%;
+  border: 1px solid blue;
+  color: green;
+  font-size: 1.5rem;
+}
+
+/*# sourceMappingURL=style.css.map */
