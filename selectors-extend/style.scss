@@ -1,0 +1,63 @@
+@use "border-color.scss" as borderstyle;
+@use "text-color.scss" as textstyle;
+@use "font.scss" as tfont;
+@use "rem-converter.scss" as pxtorem;
+
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 80em;
+  margin: auto;
+  padding: 1rem;
+  border: borderstyle.$red;
+  font-size: tfont.$size;
+  font-size: pxtorem.rem-convert(16);
+
+  &__title {
+    text-align: center;
+    text-decoration: underline 2px blue;
+    color: textstyle.$green;
+    width: fit-content;
+    align-self: center;
+  }
+
+  &__subtitle {
+    @extend .container__title;
+    text-decoration: none;
+    border: borderstyle.$red;
+    padding: 1rem;
+  }
+
+  &__section1 {
+    display: flex;
+    flex-direction: row;
+
+    &__bluetext {
+      padding: 1rem;
+      text-align: center;
+      border: borderstyle.$green;
+      color: textstyle.$blue;
+    }
+
+    &__redtext {
+      padding: 1rem;
+      text-align: center;
+      border: borderstyle.$green;
+      color: textstyle.$red;
+    }
+  }
+
+  &__section2 {
+    @extend .container__section1;
+
+    &__footer {
+      padding: 1rem;
+      text-align: center;
+      margin-top: 1rem;
+      width: 100%;
+      border: borderstyle.$blue;
+      color: textstyle.$green;
+      font-size: pxtorem.rem-convert(24);
+    }
+  }
+}
