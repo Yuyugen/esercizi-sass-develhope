@@ -1,0 +1,199 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 80em;
+  margin: auto;
+  padding: 1rem;
+  border: 1px solid red;
+  font-size: 1rem;
+  font-size: 1rem;
+}
+.container__title, .container__subtitle {
+  text-align: center;
+  text-decoration: underline 2px blue;
+  color: green;
+  width: fit-content;
+  align-self: center;
+}
+.container__subtitle {
+  text-decoration: none;
+  border: 1px solid red;
+  padding: 1rem;
+}
+.container__section1, .container__section2 {
+  display: flex;
+  flex-direction: row;
+}
+.container__section1__bluetext {
+  padding: 1rem;
+  text-align: center;
+  border: 1px solid green;
+  color: blue;
+}
+.container__section1__redtext {
+  padding: 1rem;
+  text-align: center;
+  border: 1px solid green;
+  color: red;
+}
+.container__squares {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 1rem;
+}
+.container__squares div:nth-child(1) {
+  border: 1px solid red;
+  height: 2.8125rem;
+  width: 2.8125rem;
+  background-color: #f2f2f2;
+  color: #0d0d0d;
+}
+.container__squares div:nth-child(2) {
+  border: 1px solid red;
+  height: 2.8125rem;
+  width: 2.8125rem;
+  background-color: #e6e6e6;
+  color: #1a1a1a;
+}
+.container__squares div:nth-child(3) {
+  border: 1px solid red;
+  height: 2.8125rem;
+  width: 2.8125rem;
+  background-color: #d9d9d9;
+  color: #262626;
+}
+.container__squares div:nth-child(4) {
+  border: 1px solid red;
+  height: 2.8125rem;
+  width: 2.8125rem;
+  background-color: #cccccc;
+  color: #333333;
+}
+.container__squares div:nth-child(5) {
+  border: 1px solid red;
+  height: 2.8125rem;
+  width: 2.8125rem;
+  background-color: #bfbfbf;
+  color: #404040;
+}
+.container__squares div:nth-child(6) {
+  border: 1px solid red;
+  height: 2.8125rem;
+  width: 2.8125rem;
+  background-color: #b3b3b3;
+  color: #4d4d4d;
+}
+.container__squares div:nth-child(7) {
+  border: 1px solid red;
+  height: 2.8125rem;
+  width: 2.8125rem;
+  background-color: #a6a6a6;
+  color: #595959;
+}
+.container__squares div:nth-child(8) {
+  border: 1px solid red;
+  height: 2.8125rem;
+  width: 2.8125rem;
+  background-color: #999999;
+  color: #666666;
+}
+.container__squares div:nth-child(9) {
+  border: 1px solid red;
+  height: 2.8125rem;
+  width: 2.8125rem;
+  background-color: #8c8c8c;
+  color: #737373;
+}
+.container__squares div:nth-child(10) {
+  border: 1px solid red;
+  height: 2.8125rem;
+  width: 2.8125rem;
+  background-color: gray;
+  color: gray;
+  background-color: blue;
+  color: red;
+}
+.container__squares div:nth-child(11) {
+  border: 1px solid red;
+  height: 2.8125rem;
+  width: 2.8125rem;
+  background-color: #737373;
+  color: #8c8c8c;
+}
+.container__squares div:nth-child(12) {
+  border: 1px solid red;
+  height: 2.8125rem;
+  width: 2.8125rem;
+  background-color: #666666;
+  color: #999999;
+}
+.container__squares div:nth-child(13) {
+  border: 1px solid red;
+  height: 2.8125rem;
+  width: 2.8125rem;
+  background-color: #595959;
+  color: #a6a6a6;
+}
+.container__squares div:nth-child(14) {
+  border: 1px solid red;
+  height: 2.8125rem;
+  width: 2.8125rem;
+  background-color: #4d4d4d;
+  color: #b3b3b3;
+}
+.container__squares div:nth-child(15) {
+  border: 1px solid red;
+  height: 2.8125rem;
+  width: 2.8125rem;
+  background-color: #404040;
+  color: #bfbfbf;
+}
+.container__squares div:nth-child(16) {
+  border: 1px solid red;
+  height: 2.8125rem;
+  width: 2.8125rem;
+  background-color: #333333;
+  color: #cccccc;
+}
+.container__squares div:nth-child(17) {
+  border: 1px solid red;
+  height: 2.8125rem;
+  width: 2.8125rem;
+  background-color: #262626;
+  color: #d9d9d9;
+}
+.container__squares div:nth-child(18) {
+  border: 1px solid red;
+  height: 2.8125rem;
+  width: 2.8125rem;
+  background-color: #1a1a1a;
+  color: #e6e6e6;
+}
+.container__squares div:nth-child(19) {
+  border: 1px solid red;
+  height: 2.8125rem;
+  width: 2.8125rem;
+  background-color: #0d0d0d;
+  color: #f2f2f2;
+}
+.container__squares .fs-1rem {
+  font-size: 1rem;
+}
+.container__squares .fs-2rem {
+  font-size: 2rem;
+}
+.container__squares .fs-3rem {
+  font-size: 3rem;
+}
+.container__section2__footer {
+  padding: 1rem;
+  text-align: center;
+  margin-top: 1rem;
+  width: 100%;
+  border: 1px solid blue;
+  color: green;
+  font-size: 1.5rem;
+}
+
+/*# sourceMappingURL=style.css.map */
